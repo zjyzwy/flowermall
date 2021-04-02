@@ -1,0 +1,11 @@
+<!Doctype	html>
+<html><head>
+<meta	charset="UTF-8">
+<title>验证码示例</title>
+</head>
+<body><h2>验证码示例</h2>
+<FORM	method="post"	class="form"	action="{:url('check')}">
+输入验证码：<INPUT	type="text"	class="text" name="code">
+<span style="width:15px;heigth:15px;">{:captcha_img()}</span>
+<INPUT	type="submit" class="btn"value="提交">
+</FORM></body></html>
